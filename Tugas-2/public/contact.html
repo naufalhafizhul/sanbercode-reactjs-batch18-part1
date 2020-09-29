@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url(css/pattern.jpg);
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .contact{
+            margin: 30px;
+            background-color: white;
+        }
+
+        form{
+            margin-left: 40px;
+        }
+
+        #male{
+            margin-left: 241px;
+        }
+
+        #nama, #email, #female, #kelamin, #pesan, #kirim{
+            margin-bottom: 20px;
+            margin-left: 70px;
+        }
+
+        #kirim{
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="contact">
+        <h1>Hubungi Kami</h1>
+        
+        <ul>
+            <li><b>Kantor :</b> di jalan jalan situ aja</li>
+            <li><b>Nomor Telpon :</b> 081128932893</li>
+            <li><b>Email :</b> Contact@hayacorp.com</li>
+            
+        </ul>
+
+        <h1>Kirim Pesan</h1>
+
+        <form>
+
+            <label id="nama"><b>Nama</b></label>
+            <input type="text" id="nama"><br>
+
+            <label id="email"><b>Email</b></label>
+            <input type="text" id="email"><br>
+           
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Laki - laki</label><br>
+
+            <label id="kelamin"><b>Jenis Kelamin</b></label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Perumpuan</label><br>
+
+            <label id="pesan"><b>Pesan</b></label>
+            <textarea name="comment" cols="30" rows="10"></textarea><br>
+
+            <input type="button" value="Kirim" id="kirim"><br>
+            <a href="index.html" style="margin-left: 70px;">Kembali Ke Index</a>
+        </form>
+    </div>
     
 </body>
 </html>

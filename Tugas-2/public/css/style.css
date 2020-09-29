@@ -1,0 +1,58 @@
+body{
+    font-family: 'Slabo 27px', serif;
+    background-image: url(pattern.jpg);
+    margin: 0px;
+}
+/* navbar */
+nav{
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    display: flex;
+}
+
+ul a{
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(24, 24, 214);
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+/* body */
+h1{
+    padding: 5px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 100px 150px 60px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#article-list{
+    padding: 10px 20px;
+   
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 25px;
+}
