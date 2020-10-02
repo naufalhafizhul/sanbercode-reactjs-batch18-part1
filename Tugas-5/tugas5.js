@@ -70,3 +70,4 @@ tambahFilm("judul", "durasi", "genre", "tahun")
 console.log(dataFilm)
 
 
+
